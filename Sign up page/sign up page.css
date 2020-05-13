@@ -408,7 +408,6 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 		height: 804px;
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		width: 100%;
-		height: 804px;
 		background-repeat: no-repeat;
 		margin: 0 auto;
 	}
