@@ -7,7 +7,6 @@ body{
 	font-family: Roboto;
 	margin: 0;
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG.png), #C4C4C4;
-	/*background: url(Pictures/BG.png);*/
 	width: 100%;
 	height: 794px;
 	background-position: center;
@@ -390,6 +389,7 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 	margin-left: 34px;
 }
 
+
 .footer-logo{
 	width: 190px;
 	height: 17px;
@@ -401,20 +401,130 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 	color: #FFFFFF;
 	margin: 0 auto;
 }
-
+/*-----------------------------------------------------Tablet--------------------------------------------------------------------*/
 @media(min-width: 786px){
 	body{
-		width: 786px;
-		height: 804px;
-		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
+		margin: 0;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG3.png), #C4C4C4;
 		width: 100%;
+		height: 804px;
+		background-position: center;
 		background-repeat: no-repeat;
-		margin: 0 auto;
-	}
+}
+/*header{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 14px;
 
-	.footer-meny{
+		color: #FFFFFF;
+
+		width: 100%;
+		height: 70px;
+		background: rgba(0, 0, 0, 0.4);
+		margin-bottom: 52px;
+}*/
+
+.Rectangle1{
+	width: 314px;
+	height: 150px;
+}
+
+.Rectangle2{
+	width: 353px;
+	height: 477px;
+}
+
+
+input[type='text'], input[type='e-mail'], input[type='password']{
+	width: 269px;
+
+
+}
+
+.footer-meny{
 		justify-content: left;
 		margin-left: 40px;
+		margin-bottom: 27px;
 	}
+
+}
+
+/*--------------------------------------------------Desktop----------------------------------------------------------------------*/
+
+@media(min-width: 1400px){
+	body{
+		margin: 0;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 752px;
+	}
+
+	header{
+			font-style: none;
+			font-weight: none;
+			font-size: 18px;
+			line-height: 12px;
+			width: 100%;
+			height: none;
+			background: none;
+			margin-bottom: none;
+}
+
+		.logo{
+			width: 150px;
+			height: 22px;
+			font-size: 18px;
+			line-height: 21px;
+			padding-top: 39px;
+			padding-left: 140px;
+}
+
+		.desktop-nav{
+			font-size: 12px;
+			line-height: 14px;
+			margin-top: 36px;
+			margin-right: 150px;
+}
+
+		.Rectangle1{
+			width: 324px;
+			height: 150px;
+}
+
+		.Rectangle2{
+			width: 365px;
+			height: 470px;
+}
+
+
+		input[type='text'], input[type='e-mail'], input[type='password']{
+			width: 269px;
+
+
+}
+
+		.desktopfooter{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.footer-meny{
+			margin-left: 160px;
+			margin-bottom: 34px;
+		}
+
+		.footer-logo{
+			width: 220px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 14px;
+			margin-right: 140px;
+			margin-bottom: 40px;
+		}
 
 }
