@@ -6,9 +6,10 @@ body{
 	overflow-x: hidden;
 	font-family: Roboto;
 	margin: 0;
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG.png), #C4C4C4;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 	width: 100%;
 	height: 794px;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -405,9 +406,10 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 @media(min-width: 786px){
 	body{
 		margin: 0;
-		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG3.png), #C4C4C4;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		width: 100%;
 		height: 804px;
+		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 }
@@ -457,6 +459,7 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 		margin: 0;
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		width: 100%;
+		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 752px;
@@ -479,7 +482,7 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 			font-size: 18px;
 			line-height: 21px;
 			padding-top: 39px;
-			padding-left: 140px;
+			margin-left: 144px;
 }
 
 		.desktop-nav{
@@ -509,22 +512,26 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 		.desktopfooter{
 			display: flex;
 			justify-content: space-between;
-		}
-
-		.footer-meny{
+			align-items: center;
 			margin-left: 160px;
+			margin-right: 144px;
 			margin-bottom: 34px;
 		}
 
+		/*.footer-meny{
+			margin-left: 160px;
+			margin-bottom: 34px;
+		}*/
+
 		.footer-logo{
-			width: 220px;
+			width: 300px;
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: 500;
 			font-size: 12px;
-			line-height: 14px;
+			/*line-height: 14px;
 			margin-right: 140px;
-			margin-bottom: 40px;
+			margin-bottom: 40px;*/
 		}
 
 }
