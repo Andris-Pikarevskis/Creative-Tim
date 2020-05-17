@@ -97,13 +97,14 @@ a{
 	margin-top: 23px;
 	width: 18px;
 	height: 20px;
-	margin-right: 24px;
+	margin-right: 35px;
 	background-repeat: no-repeat;
 	background-image: url(Pictures/FACEBOOK.png);
 }
 
 .instagram{
 	margin-top: 23px;
+	margin-left: -11px;
 	width: 18px;
 	height: 20px;
 	background-repeat: no-repeat;
@@ -272,10 +273,11 @@ a{
 
 .google{
 	margin-top: 23px;
-	width: 24px;
-	height: 18px;
-	background-repeat: no-repeat;
-	background-image: url(Pictures/GOOGLE+.png)
+    width: 24px;
+    height: 18px;
+    margin-left: 11px;
+    background-repeat: no-repeat;
+    background-image: url(Pictures/GOOGLE+.png);
 
 }
 
