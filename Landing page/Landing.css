@@ -473,3 +473,90 @@ button{
 	line-height: 16px;
 	color: #777777;
 }
+
+.description{
+	width: 372px;
+	height: 82px;
+	text-align: center;
+	margin-top: 34px;
+	margin-left: 18px;
+	margin-right: 15px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #999999;
+}
+
+.textlink{
+	color: #9C27B0;
+}
+
+.socneticon{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	margin-bottom: 22px;
+}
+
+.team .socneticon .icon-twitter{
+	width: 17px;
+	height: 18px;
+	background-image: url(Landing-images/TWITTER1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.team .socneticon .icon-instagram{
+	width: 16px;
+	height: 18px;
+	background-image: url(Landing-images/INSTAGRAM1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.team .socneticon .icon-facebook{
+	width: 16px;
+	height: 18px;
+	background-image: url(Landing-images/FACEBOOK1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.team .socneticon .icon-linkedin{
+	width: 16px;
+	height: 18px;
+	background-image: url(Landing-images/LINKEDIN1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.team .socneticon .icon-google{
+	width: 24px;
+	height: 18px;
+	background-image: url(Landing-images/GOOGLE1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.team .socneticon .icon-youtube{
+	width: 18px;
+	height: 18px;
+	background-image: url(Landing-images/YOUTUBE1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 14px;
+	margin-right: 14px;
+}
