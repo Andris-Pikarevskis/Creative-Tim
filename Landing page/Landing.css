@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	outline: 0;
 }
 body{ 
 	font-family: Roboto;
@@ -59,7 +60,7 @@ header{
 .desktop-nav{
 	display: flex;
 	font-size: 12px;
-	margin-right: 40px;
+	margin-right: 36px;
 }
 
 a{
@@ -76,11 +77,11 @@ a{
 }
 
 .icon{
-	margin-top: 25px;
+	margin-top: 23px;
 	width: 20px;
 	height: 20px;
 	margin-right: 6px;
-	background-image: url(Pictures/ICON1.png);
+	background-image: url(Landing-images/ICON-2.png);
 }
 
 .download{
@@ -95,7 +96,7 @@ a{
 	height: 23px;
 	margin-right: 24px;
 	background-repeat: no-repeat;
-	background-image: url(Pictures/TWITTER.png);
+	background-image: url(Landing-images/TWITTER-3.png);
 }
 
 .facebook{
@@ -104,7 +105,7 @@ a{
 	height: 20px;
 	margin-right: 24px;
 	background-repeat: no-repeat;
-	background-image: url(Pictures/FACEBOOK.png);
+	background-image: url(Landing-images/FACEBOOK-2.png);
 }
 
 .instagram{
@@ -112,7 +113,7 @@ a{
 	width: 18px;
 	height: 20px;
 	background-repeat: no-repeat;
-	background-image: url(Pictures/INSTAGRAM.png)
+	background-image: url(Landing-images/INSTAGRAM-2.png)
 
 }
 
@@ -161,7 +162,7 @@ a{
   width: 22px;
   height: 2px;
   background-color: #fff;
-  transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  transition: transform 0.5s ease-in, top 0.5s linear 0.2s;
 
 }
 
@@ -274,8 +275,9 @@ a{
 button{
 	cursor: pointer;
 }
-.button{
+.BG-HEADER .button{
 	margin-top: 42px;
+	margin-left: 0px;
 	border-style: none;
 	width: 179px;
 	height: 54px;
@@ -449,7 +451,7 @@ button{
 	margin: 0 auto;
 }
 
-.name{
+.team .name{
 	width: 405px;
 	height: 22px;
 	text-align: center;
@@ -559,4 +561,127 @@ button{
 	background-repeat: no-repeat;
 	margin-left: 14px;
 	margin-right: 14px;
+}
+
+.work{
+	display: flex;
+	flex-direction: column;
+}
+
+.work-with-us{
+	margin-top: 180px;
+	width: 405px;
+	height: 43px;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #3C4858;
+}
+
+.divide-details{
+	margin-top: 37px;
+	margin-right: 12px;
+	margin-left: 15px;
+	width: 378px;
+	height: 123px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18.2px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
+}
+
+input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #D2D2D2;
+}
+
+input[type='name'], input[type='e-mail']{
+	width: 378px;
+	padding-top: 52px;
+	padding-bottom: 7px;
+	margin-right: 12px;
+	margin-left: 15px;
+	font-size: 14px;
+	color: #999999;
+}
+
+input[type='text']{
+	width: 378px;
+	padding-top: 51px;
+	padding-bottom: 62px;
+	margin-right: 12px;
+	margin-left: 15px;
+	font-size: 14px;
+	color: #999999;
+}
+
+.button{
+	margin-top: 32px;
+	margin-left: 128px;
+	border-style: none;
+	width: 179px;
+	height: 54px;
+	background: #9C27B0;
+	border-radius: 3px;
+	color: #FFF
+}
+/*------------------------------------------------footer-meny---------------------------------------*/
+
+.desktopfooter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-meny{
+	display: flex;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 33px;
+	margin-bottom: 31px;
+	color: black;
+}
+
+.CreativeTim{
+	width: 85px;
+	height: 15px;
+	padding-left: 9px;
+}
+
+.Aboutus{
+	width: 55px;
+	height: 15px;
+	margin-left: 34px;
+}
+
+.Blog{
+	width: 31px;
+	height: 15px;
+	margin-left: 34px;
+}
+
+.Licenses{
+	width: 55px;
+	height: 15px;
+	margin-left: 34px;
+}
+
+
+.footer-logo{
+	width: 190px;
+	height: 17px;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: black;
+	margin: 0 auto;
 }
