@@ -685,3 +685,240 @@ input[type='text']{
 	color: black;
 	margin: 0 auto;
 }
+
+@media (min-width: 786px) {
+	.BG-HEADER{
+		width: 768px;
+		height: 597px;
+	}
+
+	.title{
+		width: 648px;
+		height: 125px;
+		margin-left: 24px;
+	}
+
+	.title-paragraph{
+		width: 716px;
+		height: 72px;
+		margin-left: 24px;
+	}
+
+	.BG-HEADER .button{
+		margin-left: 24px;
+	}
+
+	.bg-body{
+		width: 748px;
+		height: 3547px;
+	}
+
+	.letstext{
+		width: 723px;
+		height: 70px;
+	}
+
+	.team-title{
+		width: 748px;
+	}
+
+	.team .name{
+		width: 748px;
+	}
+
+	.profession{
+		width: 748px;
+	}
+
+	.description{
+		width: 748px;
+	}
+
+	.work-with-us{
+		width: 748px;
+	}
+
+	.divide-details{
+		width: 748px;
+	}
+
+	.button{
+		margin-left: 255px;
+	}
+
+	input[type='name'], input[type='e-mail']{
+		width: 716px;
+	}
+
+	input[type='text']{
+		width: 716px;
+	}
+
+
+
+	.footer-meny {
+	    justify-content: left;
+	    margin-left: 40px;
+	    margin-bottom: 27px;
+	
+}
+
+@media (min-width: 1400px){
+
+	header{
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Landing-images/BG-header2.png), #C4C4C4;
+		width: 100%;
+		height: 726px;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 726px;
+	}
+
+	.logo{
+		padding-right: 0px;
+		margin-left: 152px;
+	}
+	
+	.nav-container{
+		background: none;
+		width: 1400px;
+	}
+
+	.desktop-nav{
+		margin-right: 140px;
+	}
+
+	.BG-HEADER{
+		padding-top: 0;
+		width: 1400px;
+	    height: 726px;
+	}
+
+	.title{
+		width: 530px;
+		height: 125px;
+		margin-left: 152px;
+		margin-top: 65px
+	}
+
+	.title-paragraph{
+		width: 549px;
+		height: 72px;
+		margin-left: 152px
+	}
+
+	.BG-HEADER .button {
+	    margin-left: 152px;
+	}
+
+	.bg-body{
+		width: 1380px;
+		height: 2045px;
+	}
+
+	.feature{
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.firstfeature{
+		margin-left: 31px;
+		margin-right: 31px;
+	}
+
+	.secondfeature{
+		margin-top: 0px;
+		margin-left: 31px;
+		margin-right: 31px;
+	}
+
+	.thirdfeature{
+		margin-top: 0px;
+		margin-left: 31px;
+		margin-right: 31px;
+	}
+
+	.team{
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.team-title {
+	    width: 1380px;
+	}
+
+	.Gigi-Hadid{
+		width: 352px;
+		margin-left: 32px;
+		margin-right: 32px;
+	}
+
+	.Christian-Louboutin{
+		width: 352px;
+		margin-left: 32px;
+		margin-right: 32px;
+	}
+
+	.Kendall-Jenner{
+		width: 352px;
+		margin-left: 32px;
+		margin-right: 32px;
+	}
+
+	.team .name{
+		width: 352px;
+	}
+
+	.profession{
+		width: 352px;
+	}
+
+	.description{
+		width: 352px;
+	}
+
+	.work-with-us{
+		width: 1380px;
+	}
+
+	.divide-details{
+		margin-left: 354px;
+		margin-left: 312px;
+		width: 753px;
+		height: 72px;
+	}
+
+	.desktop-input{
+		display: flex;
+	}
+
+	.inputt{
+		margin-left: 315px;
+	}
+
+	input[type='name'], input[type='e-mail']{
+		width: 361px;
+	}
+
+	input[type='text']{
+		width: 751px;
+	}
+
+	.desktopfooter{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.footer-meny{
+		margin-left: 165px;
+	}
+
+	.footer-logo{
+		margin-right: 153px;
+		font-size: 10px;
+		line-height: 11px;
+	}
+
+}
