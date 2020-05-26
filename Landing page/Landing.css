@@ -463,6 +463,11 @@ button{
 	color: #3C4858;
 }
 
+.name a{
+	font-size: 18px;
+	color: #3C4858;
+}
+
 .profession{
 	width: 405px;
 	height: 16px;

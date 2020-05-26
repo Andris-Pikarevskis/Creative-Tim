@@ -345,7 +345,7 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 	padding-right: 10px;
 }
 
-.buttton{
+.button{
 	border-style: none;
 	width: 120px;
 	height: 80px;
@@ -355,6 +355,12 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 	margin: 0 auto;
 	background-color: #fff;
 }
+
+.button a{
+	font-size: 14px;
+	color: #9C27B0;
+}
+
 
 /*--------------------------------footer----------------------------------------*/
 
