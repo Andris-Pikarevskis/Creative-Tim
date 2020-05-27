@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 *{
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	outline: 0;
 }
 body{ 
@@ -14,6 +22,8 @@ body{
 
 header{
 	z-index: 2;
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(Profile-images/HEADER2.png), #C4C4C4;
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Profile-images/HEADER2.png), #C4C4C4;
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Profile-images/HEADER2.png), #C4C4C4;
 	width: 425px;
 	width: 100%;
@@ -25,8 +35,12 @@ header{
 
 
 .nav-container{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-left: auto;
 	margin-right: auto;
 	font-style: normal;
@@ -41,7 +55,7 @@ header{
 	height: 70px;
 	background: rgba(0, 0, 0, 0.4);
 	margin-bottom: 52px;
-	max-width: width: 1440px;
+	width: 1440px;
 }
 
 .logo{
@@ -58,6 +72,8 @@ header{
 
 
 .desktop-nav{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	font-size: 12px;
 	margin-right: 36px;
@@ -138,9 +154,15 @@ a{
 
 @media(max-width: 786px) {
 	.menu-icon{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
-		align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		margin-top: 20px;
 		margin-right: 23px;
 	}
@@ -162,7 +184,11 @@ a{
   width: 22px;
   height: 2px;
   background-color: #fff;
+  -webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
 
 }
 
@@ -174,7 +200,11 @@ a{
   width: 22px;
   height: 2px;
   background-color: #fff;
+  -webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
 
 }
 
@@ -183,15 +213,27 @@ a{
 }
 
 .menu-icon.menu-icon-active .menu-icon-line::before {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   top: 0;
+  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  -o-transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
 }
 
 .menu-icon.menu-icon-active .menu-icon-line::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   top: 0;
+  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  -o-transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
 }
 
 
@@ -255,8 +297,12 @@ a{
 
 .Christian-photo{
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	height: 460px;
 	background: url(Profile-images/AVATAR1.png);
 	z-index: 28;
@@ -272,16 +318,26 @@ a{
 	width: 406px;
 	height: 2313px;
 	background: #FFFFFF;
-	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+	        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
 	border-radius: 6px;
 	margin-top: -54px;
 }
 
 .CB{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	}
 
 .name{
@@ -328,25 +384,33 @@ a{
 }
 
 .about{
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .studio{
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	width: 100px;
 	height: 104px;
 	background: #9C27B0;
-	box-shadow: 0px 4px 20px rgba(156, 39, 176, 0.45);
+	-webkit-box-shadow: 0px 4px 20px rgba(156, 39, 176, 0.45);
+	        box-shadow: 0px 4px 20px rgba(156, 39, 176, 0.45);
 	border-radius: 4px;
 }
 
@@ -375,12 +439,16 @@ a{
 }
 
 .work{
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	width: 100px;
 	height: 104px;
 	background: #fff;
@@ -413,12 +481,16 @@ a{
 }
 
 .favorite{
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	width: 100px;
 	height: 104px;
 	background: #fff;
@@ -451,13 +523,19 @@ a{
 }
 
 .photos{
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .photo1{
@@ -503,14 +581,25 @@ a{
 /*------------------------------------------------footer-meny---------------------------------------*/
 
 .desktopfooter{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .footer-meny{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 14px;
@@ -557,6 +646,10 @@ a{
 }
 /*-------------------------------------------------------tablet-------------------------------------------------*/
 @media (min-width: 786px) {
+
+	body{
+		height: 1594px;
+	}
 	.BG-HEADER{
 		width: 100%;
 		height: 381px;
@@ -597,7 +690,9 @@ a{
 
 
 	.footer-meny {
-	    justify-content: left;
+	    -webkit-box-pack: left;
+	        -ms-flex-pack: left;
+	            justify-content: left;
 	    margin-left: 40px;
 	    margin-bottom: 27px;
 }
@@ -605,7 +700,13 @@ a{
 /*-----------------------------------------------------desktop---------------------------------------------------*/
 @media (min-width: 1400px){
 
+	body{
+		height: 1594px;
+	}
+
 	header{
+		background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(Profile-images/HEADER2.png), #C4C4C4;
+		background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Profile-images/HEADER2.png), #C4C4C4;
 		background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Profile-images/HEADER2.png), #C4C4C4;
 		width: 100%;
 		height: 381px;
@@ -645,14 +746,22 @@ a{
 	}
 
 	.photos{
-		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 
 	.desktop-pic1{
@@ -686,11 +795,25 @@ a{
 		height: 197px;
 	}
 
+	footer{
+		width: 1440px;
+	}
+
 	.desktopfooter{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		flex-direction: row;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+
 	}
 
 	.footer-meny{

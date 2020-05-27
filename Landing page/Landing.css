@@ -41,7 +41,6 @@ header{
 	height: 70px;
 	background: rgba(0, 0, 0, 0.4);
 	margin-bottom: 52px;
-	max-width: width: 1440px;
 }
 
 .logo{
@@ -768,6 +767,7 @@ input[type='text']{
 	    margin-bottom: 27px;
 	
 }
+}
 
 @media (min-width: 1400px){
 
@@ -928,5 +928,3 @@ input[type='text']{
 	}
 
 }
-=======
->>>>>>> e9362ed029e795463c052a3b3265f19510586098

@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 *{
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	outline: 0;
 }
 
@@ -8,6 +16,8 @@ body{
 	overflow-x: hidden;
 	font-family: Roboto;
 	margin: 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(99.99%, rgba(0, 0, 0, 0.4)), to(rgba(255, 255, 255, 0))), url(Pictures/BG4.png), #C4C4C4;
+	background: -o-linear-gradient(top, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 	width: 100%;
 	height: 794px;
@@ -33,11 +43,15 @@ header{
 
 
 .nav-container{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: width: 1440px;
+	max-width: 1440px;
 }
 
 .logo{
@@ -54,6 +68,8 @@ header{
 
 
 .desktop-nav{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	font-size: 12px;
 	margin-right: 40px;
@@ -135,9 +151,15 @@ a{
 
 @media(max-width: 786px) {
 	.menu-icon{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
-		align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		margin-top: 20px;
 		margin-right: 23px;
 	}
@@ -159,7 +181,11 @@ a{
   width: 22px;
   height: 2px;
   background-color: #fff;
+  -webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
 
 }
 
@@ -171,7 +197,11 @@ a{
   width: 22px;
   height: 2px;
   background-color: #fff;
+  -webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
 
 }
 
@@ -180,15 +210,27 @@ a{
 }
 
 .menu-icon.menu-icon-active .menu-icon-line::before {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   top: 0;
+  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  -o-transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
 }
 
 .menu-icon.menu-icon-active .menu-icon-line::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   top: 0;
+  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
+  -o-transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
 }
 
 
@@ -249,8 +291,11 @@ a{
 	z-index: 19;
 	width: 360px;
 	height: 150px;
+	background: -webkit-gradient(linear, left top, right top, from(#AB47BC), to(#7B1FA2));
+	background: -o-linear-gradient(left, #AB47BC 0%, #7B1FA2 100%);
 	background: linear-gradient(90deg, #AB47BC 0%, #7B1FA2 100%);
-	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
+	        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
 	border-radius: 3px;
 	margin: 0 auto;
 }
@@ -268,8 +313,12 @@ a{
 
 .sign-up-with{
 	z-index: 19;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-top: 36px;
 }
 
@@ -306,8 +355,13 @@ a{
 }
 
 .input{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 
 }
 
@@ -365,8 +419,12 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 /*--------------------------------footer----------------------------------------*/
 
 .footer-meny{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 14px;
@@ -416,6 +474,8 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 @media(min-width: 786px){
 	body{
 		margin: 0;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(99.99%, rgba(0, 0, 0, 0.4)), to(rgba(255, 255, 255, 0))), url(Pictures/BG4.png), #C4C4C4;
+		background: -o-linear-gradient(top, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		width: 100%;
 		height: 804px;
@@ -455,7 +515,9 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 }
 
 .footer-meny{
-		justify-content: left;
+		-webkit-box-pack: left;
+		    -ms-flex-pack: left;
+		        justify-content: left;
 		margin-left: 40px;
 		margin-bottom: 27px;
 	}
@@ -467,6 +529,8 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 @media(min-width: 1400px){
 	body{
 		margin: 0;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(99.99%, rgba(0, 0, 0, 0.4)), to(rgba(255, 255, 255, 0))), url(Pictures/BG4.png), #C4C4C4;
+		background: -o-linear-gradient(top, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(Pictures/BG4.png), #C4C4C4;
 		width: 100%;
 		background-size: cover;
@@ -520,18 +584,19 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 }
 
 		.desktopfooter{
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
-			justify-content: space-between;
-			align-items: center;
+			-webkit-box-pack: justify;
+			    -ms-flex-pack: justify;
+			        justify-content: space-between;
+			-webkit-box-align: center;
+			    -ms-flex-align: center;
+			        align-items: center;
 			margin-left: 160px;
 			margin-right: 144px;
 			margin-bottom: 34px;
 		}
-
-		/*.footer-meny{
-			margin-left: 160px;
-			margin-bottom: 34px;
-		}*/
 
 		.footer-logo{
 			width: 300px;
@@ -539,9 +604,6 @@ input[type='text'], input[type='e-mail'], input[type='password']{
 			font-style: normal;
 			font-weight: 500;
 			font-size: 12px;
-			/*line-height: 14px;
-			margin-right: 140px;
-			margin-bottom: 40px;*/
 		}
 
 }
