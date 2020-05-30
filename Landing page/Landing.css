@@ -6,7 +6,7 @@ body{
 	font-family: Roboto;
 	overflow-x: hidden;
 	width: 100%;
-	height: 4442px;
+	/*height: 4442px;*/
 	background: #CCCCCC;
 	margin: 0 auto;
 }
@@ -910,6 +910,15 @@ input[type='text']{
 		width: 751px;
 	}
 
+	.footer{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+	}
+
 	.desktopfooter{
 		display: flex;
 		justify-content: space-between;
@@ -922,9 +931,10 @@ input[type='text']{
 	}
 
 	.footer-logo{
+		margin-top: 27px;
 		margin-right: 153px;
-		font-size: 10px;
-		line-height: 11px;
+		font-size: 12px;
+		line-height: 12px;
 	}
 
 }
