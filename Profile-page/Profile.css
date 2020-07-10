@@ -238,7 +238,8 @@ a{
 /*-----------------------mobilā-navigācija-----------------------------*/
 
 .mobile-nav{
-	z-index: 9;
+	margin-top: 70px;
+	z-index: 40;
 	display: block;
 	position: absolute;
 	right: -300px;
@@ -250,11 +251,10 @@ a{
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, 0.4);
 }
-/*--------------------------------------------------!KĻŪDA!--------------------------------------------------------------------*/
-/*.mobile-nav--active{
+
+.mobile-nav--active{
 	transform: translateX(-100%);
-}*/
-/*--------------------------------------------------!KĻŪDA!-------------------------------------------------------------------*/
+}
 
 .mobile-nav-title{
 	font-size: 18px;
@@ -645,6 +645,10 @@ a{
 /*-------------------------------------------------------tablet-------------------------------------------------*/
 @media (min-width: 786px) {
 
+	header{
+		background-size: cover;
+	}
+
 	body{
 		height: 1594px;
 	}
@@ -710,6 +714,7 @@ a{
 		height: 381px;
 		background-position: center;
 		background-repeat: no-repeat;
+		background-size: cover;
 
 	}
 

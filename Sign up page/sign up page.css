@@ -237,7 +237,8 @@ a{
 /*-----------------------mobilā-navigācija-----------------------------*/
 
 .mobile-nav{
-	z-index: 9;
+	margin-top: 70px;
+	z-index: 20;
 	display: block;
 	position: absolute;
 	right: -300px;
@@ -249,11 +250,10 @@ a{
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, 0.4);
 }
-/*--------------------------------------------------!KĻŪDA!--------------------------------------------------------------------*/
-/*.mobile-nav--active{
+
+.mobile-nav--active{
 	transform: translateX(-100%);
-}*/
-/*--------------------------------------------------!KĻŪDA!-------------------------------------------------------------------*/
+}
 
 .mobile-nav-title{
 	font-size: 18px;
